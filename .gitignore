@@ -46,7 +46,7 @@ build/Release
 *.sqlite
 
 # TypeORM config
-ormconfig.json
+#ormconfig.json
 
 # Dependency directories
 node_modules/
