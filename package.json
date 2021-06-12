@@ -14,9 +14,9 @@
     "clean": "gts clean",
     "compile": "tsc",
     "fix": "gts fix",
-    "prepare": "yarn.cmd run compile",
-    "pretest": "yarn.cmd run compile",
-    "posttest": "yarn.cmd run lint"
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
   },
   "dependencies": {
     "cors": "^2.8.5",
