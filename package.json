@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "engines": {
-    "node": "12.x"
+    "node": "14.x"
   },
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
-    "start": "npm build/src/server.ts",
+    "start": "node build/src/server.js",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
     "lint": "gts lint",
     "clean": "gts clean",
