@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
+    "start": "yarn dev",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
     "lint": "gts lint",
     "clean": "gts clean",
