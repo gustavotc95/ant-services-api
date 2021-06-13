@@ -31,7 +31,7 @@ export default {
         and prestadores.cidade_id = cidades.id
         where tipos_servicos.id=${tipoServico} and prestadores.cidade_id=${cidade}`);
 
-      if (result[0]?.id) {
+      if (result[0].id) {
         prestadores = await prestadoresRepository.find({
           relations: ['images', 'has', 'cidade'],
           where: [...result],
