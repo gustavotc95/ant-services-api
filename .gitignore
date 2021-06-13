@@ -43,7 +43,7 @@ bower_components
 build/Release
 
 # SQLite database
-*.sqlite
+#*.sqlite
 
 # TypeORM config
 #ormconfig.json
