@@ -9,8 +9,8 @@
   },
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
-    "prod": "npm run compile && node build/src/server.js",
-    "start": "npm run prod",
+    "startprod": "npm run compile && node build/src/server.js",
+    "start": "npm run startprod",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
     "lint": "gts lint",
     "clean": "gts clean",
