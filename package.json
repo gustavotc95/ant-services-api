@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
-    "prod": "npm run compile && node --experimental-modules build/src/server.js",
+    "prod": "npm run compile && node build/src/server.js",
     "start": "npm run prod",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
     "lint": "gts lint",
